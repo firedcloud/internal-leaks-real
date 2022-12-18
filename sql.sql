@@ -1,0 +1,5 @@
+CREATE OR REPLACE FUNCTION hello() RETURNS void AS $$
+BEGIN
+	RAISE NOTICE 'Hello, World!';
+END;
+$$ LANGUAGE plpgsql;
